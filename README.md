@@ -33,7 +33,7 @@
 - 관리자 : 구독 데이터를 수집하고 분석하여 선호도와 구매 패턴 등을 파악, 마케팅 전략을 개선하고 개인화된 서비스를 제공 가능 구독 서비스를 기반으로 추후 플랫폼의 사업 확장 가능성 
 
 ## 📌 내가 맡은 기능
-#### 마이 페이지 <a href="[https://github.com/dafssdf/Spring_Portfoilo.wiki.git](https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%A7%88%EC%9D%B4-%ED%8E%98%EC%9D%B4%EC%A7%80-%E2%80%90-%EA%B5%AC%EB%8F%85-%EA%B4%80%EB%A6%AC)" >상세보기 - WIKI 이동</a>
+#### 마이 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%A7%88%EC%9D%B4-%ED%8E%98%EC%9D%B4%EC%A7%80" >상세보기 - WIKI 이동</a>
 - 구독 관리(내부 구독, 외부 구독)
 - 내부구독 삭제
 - 외부 구독 추가 삭제
