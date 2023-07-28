@@ -26,6 +26,9 @@
 - **Database** : Oracle DB(11xe)
 - **ORM** : Mybatis
 
+### 🧾MONTHLY 포트폴리오(PDF)
+[montly포트폴리오용.pdf](https://github.com/dafssdf/Spring_Portfoilo/files/12191002/montly.pdf)
+
 
 ## 📌 내가 맡은 기능
 #### 마이 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%A7%88%EC%9D%B4-%ED%8E%98%EC%9D%B4%EC%A7%80" >상세보기 - WIKI 이동</a>
