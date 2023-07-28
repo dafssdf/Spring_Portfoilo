@@ -39,15 +39,15 @@
 - 외부 구독 추가 삭제
 - 회원 정보 수정 페이지 이동
 
-#### 결제 페이지 - 정기결제 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+#### 결제 페이지 - 정기결제 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EA%B2%B0%EC%A0%9C-%ED%8E%98%EC%9D%B4%EC%A7%80" >상세보기 - WIKI 이동</a>
 - 새로운 배송지 등록
 - kakao pay 정기 결제 api 실행 후 결제
 
-#### 회원정보 수정 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+#### 회원정보 수정 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4-%EC%88%98%EC%A0%95" >상세보기 - WIKI 이동</a>
 - 회원 정보 변경(비밀번호, 배송지)
 - 회원 탈퇴
 
-#### 제품 상세 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+#### 제품 상세 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EC%A0%9C%ED%92%88-%EC%83%81%EC%84%B8-%ED%8E%98%EC%9D%B4%EC%A7%80" >상세보기 - WIKI 이동</a>
 - 제품 정보 설정(수량, 배송 날짜)
 - 제품 상세보기(더보기, 감추기 버튼)
 - 배너(제품 정보, 상품 구매 안내, 상품 후기) 스크롤 이동
