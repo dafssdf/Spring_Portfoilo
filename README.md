@@ -1,5 +1,8 @@
 # SpringBoot-Project-MONTHLY
 스프링부트 프로젝트
+<br>
+
+![로고 ](https://github.com/dafssdf/Spring_Portfoilo/assets/95078635/0e830cb0-bcd1-4da5-b0d9-d3d770321fcf)
 
 ## 🖥️ 프로젝트 소개
 한 달에 한번, 나를 위한 선물, 구독 서비스 이커머스 플랫폼
