@@ -23,8 +23,33 @@
 - **Database** : Oracle DB(11xe)
 - **ORM** : Mybatis
 
-## 📌 주요 기능
-#### 마이 페이지 - <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
-- 주소 API 연동
-- 회원정보 변경
+### 📰 기획 배경
+-다양한 분야의 구독 서비스 제공과 사용 증가(넷플릭스,쿠팡,마켓커리,카페박스.OTT서비스 등)
+-이용 중인 구독 서비스에 대해 일괄적인 파악 어려움으로 인해 이를 관리와 구독 플랫폼을 모아서 관리해주는 플랫폼이 있으면 좋겠다는 생각에서 시작하게 되었습니다.
+
+### ✨ 기대 효과
+- 구매자 : 개별 서비스들에 대해 각각의 사업체에 대한 가입절차를 거치지 않고도 바로 서비스를 이용가능,개인의 구독 서비스 파악,관리,이용 편리성 증가
+- 사업체의 개별적 홍보 어려움 극복, 정기 결제를 통한 메출 안정화, 향후 매출을 예측,일괄된 경험과 혜택을 제공하여 고객 충성도를 향상
+- 관리자 : 구독 데이터를 수집하고 분석하여 선호도와 구매 패턴 등을 파악, 마케팅 전략을 개선하고 개인화된 서비스를 제공 가능 구독 서비스를 기반으로 추후 플랫폼의 사업 확장 가능성 
+
+## 📌 내가 맡은 기능
+#### 마이 페이지 <a href="[https://github.com/dafssdf/Spring_Portfoilo.wiki.git](https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%A7%88%EC%9D%B4-%ED%8E%98%EC%9D%B4%EC%A7%80-%E2%80%90-%EA%B5%AC%EB%8F%85-%EA%B4%80%EB%A6%AC)" >상세보기 - WIKI 이동</a>
+- 구독 관리(내부 구독, 외부 구독)
+- 내부구독 삭제
+- 외부 구독 추가 삭제
+- 회원 정보 수정 페이지 이동
+
+#### 결제 페이지 - 정기결제 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+- 새로운 배송지 등록
+- kakao pay 정기 결제 api 실행 후 결제
+
+#### 회원정보 수정 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+- 회원 정보 변경(비밀번호, 배송지)
+- 회원 탈퇴
+
+#### 제품 상세 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo.wiki.git" >상세보기 - WIKI 이동</a>
+- 제품 정보 설정(수량, 배송 날짜)
+- 제품 상세보기(더보기, 감추기 버튼)
+- 배너(제품 정보, 상품 구매 안내, 상품 후기) 스크롤 이동
+- 댓글(등록,수정,삭제,페이징)
 
