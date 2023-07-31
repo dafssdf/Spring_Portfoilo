@@ -45,7 +45,7 @@
 - 회원 정보 변경(비밀번호, 배송지)
 - 회원 탈퇴
 
-#### 제품 상세 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EC%A0%9C%ED%92%88-%EC%83%81%EC%84%B8-%ED%8E%98%EC%9D%B4%EC%A7%80" >상세보기 - WIKI 이동</a>
+#### 제품 상세 페이지 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%82%B4%EA%B0%80-%EB%A7%A1%EC%9D%80-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%AA%A8%EC%9D%8C" >상세보기 - WIKI 이동</a>
 - 제품 정보 설정(수량, 배송 날짜)
 - 제품 상세보기(더보기, 감추기 버튼)
 - 상품 이미지
