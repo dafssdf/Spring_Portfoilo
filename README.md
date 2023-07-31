@@ -51,4 +51,4 @@
 - 상품 이미지
 - 댓글(등록,수정,삭제,페이징)
 
-### 내가 맡은 페이지 이미지 모음 <a hrdf="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%82%B4%EA%B0%80-%EB%A7%A1%EC%9D%80-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%AA%A8%EC%9D%8C"> 상세보기 WIKI 이동</a>
+### 내가 맡은 페이지 이미지 모음 <a href="https://github.com/dafssdf/Spring_Portfoilo/wiki/%EB%82%B4%EA%B0%80-%EB%A7%A1%EC%9D%80-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%AA%A8%EC%9D%8C" >상세보기 - WIKI 이동</a>
