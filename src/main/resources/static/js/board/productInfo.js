@@ -113,6 +113,7 @@ $(".result").ready(function() {
   let year = $(".year-month").text();
   let day = $(".today").text();
   $(".result").text(year + "-" + day);
+  $("#parcelDate").val(year + "-" + day);
 });
 
 

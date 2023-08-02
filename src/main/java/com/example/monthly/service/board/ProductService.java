@@ -129,12 +129,18 @@ public class ProductService {
         return productMapper.selectListPage(criteria, sellerNumber);
     }
 
+    /**
+     *
+     * @param productVo 데이터베이스에 저장되어있는 상품 수량을 가져오기 위한 vo
+     * @param productAmount 페이지에서 받아온 상품 수량
+     */
 //    상품 수량 변경
-    public void amountChange(ProductVo productVo){
+    public void amountChange(ProductVo productVo,String productAmount){
         if (productVo == null) {
             throw new IllegalArgumentException("상품 수량 등 정부 누락");
         }
-
+        Long amount = productVo.getProductAmount() - Integer.valueOf(productAmount);
+        productVo.setProductAmount(amount);
         productMapper.amountChange(productVo);
     }
 

@@ -4,7 +4,6 @@ package com.example.monthly.controller.user;
 import com.example.monthly.dto.DeliveryDto;
 import com.example.monthly.dto.ExSubsDto;
 import com.example.monthly.dto.UserDto;
-import com.example.monthly.mapper.SubsMapper;
 import com.example.monthly.service.order.OrderService;
 import com.example.monthly.service.user.MypageService;
 import com.example.monthly.service.user.UserService;
@@ -12,7 +11,6 @@ import com.example.monthly.vo.DeliveryVo;
 import com.example.monthly.vo.SubsVo;
 import com.example.monthly.vo.UserVo;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,10 +22,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 
@@ -45,28 +39,24 @@ public class UserController {
     @GetMapping("/mypage")
     public String mypage(HttpServletRequest req, Model model){
         Long userNumber = (Long)req.getSession().getAttribute("userNumber");
-        int subsPrice = 0;
-        int exPrice = 0;
+
+        //내부구독 추가
         List<SubsVo> subs = mypageService.subsFindAll(userNumber);
         System.out.println("=====================================================");
         System.out.println(subs.toString());
-        System.out.println("=====================================================");
-        for(int i =0 ; i < subs.toArray().length; i++){
-            String str = subs.get(i).getSubsStartDate().substring(0,10);
-            subs.get(i).setSubsStartDate(str);
-            subsPrice += Integer.valueOf(subs.get(i).getPaymentPrice());
-        }
-        model.addAttribute("subs",subs);
 
 //        외부 구독
         List<ExSubsDto> exSubs = mypageService.exSubsFindAll(userNumber);
-        if (!exSubs.isEmpty()) {
-            for (int i = 0; i < exSubs.size(); i++) {
-                exPrice += Integer.valueOf(exSubs.get(i).getExSubsPrice());
-            }
-        }
-        int subsCnt = mypageService.exSubsCnt(userNumber) +mypageService.subsCnt(userNumber);
 
+//        구독 개수
+        int subsCnt = mypageService.exSubsCnt(userNumber) + mypageService.subsCnt(userNumber);
+
+        //구독 가격
+        int subsPrice = mypageService.subsPrice(subs);
+        int exPrice = mypageService.exSubsPrice(exSubs);
+
+        mypageService.exSubsPrice(exSubs);
+        model.addAttribute("subs",subs);
         model.addAttribute("subsPrice",subsPrice);
         model.addAttribute("exPrice",exPrice);
         model.addAttribute("exSubs",exSubs);
@@ -96,14 +86,7 @@ public class UserController {
        //배송지 수정 (세션에서 받아온 userNumber 넣기)
        deliveryDto.setUserNumber(userNumber);
 
-        System.out.println(deliveryDto);
-
-       if(userService.findAll(userNumber).getDeliveryPostcode() != null){
-           orderService.changeDelivery(deliveryDto);
-       }else {
-            orderService.registerDelivery(deliveryDto);
-
-       }
+        orderService.ReDeliver(deliveryDto);
 
         return new RedirectView("/user/mypage");
 
