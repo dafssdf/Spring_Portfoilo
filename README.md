@@ -21,7 +21,7 @@
 ### ⚙️ 개발 환경
 - `Java 11`
 - `JDK 1.8.0`
-- **IDE** : STS 3.9
+- **IDE** : IntelliJ IDEA
 - **Framework** : Springboot(2.x)
 - **Database** : Oracle DB(11xe)
 - **ORM** : Mybatis
